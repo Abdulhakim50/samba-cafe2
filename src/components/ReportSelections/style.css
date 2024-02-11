@@ -1,0 +1,17 @@
+.reportselectioncont {
+    display: flex;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    margin-top: 8rem;
+    justify-content: space-between;
+    width: 100%;
+    gap: 370px;
+}
+
+
+
+@media (max-width: 1024px) {
+    .reportselectioncont {
+        display: none;
+    }
+}

@@ -1,0 +1,111 @@
+.infonavcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    padding: 3px 285px 20px 146px;
+    background-color: var( --tabel-nav-bg);
+
+}
+
+@media (min-width: 1024px) {
+    .infonavcontainer {
+        position: fixed;
+    }
+}
+
+@media (max-width: 1024px) {
+    .infonavcontainer {
+        padding: 0px 20px;
+    }
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0 0;
+}
+
+.leftnav {
+    display: flex;
+    align-items: center;
+}
+
+.leftnav h3 {
+    color: var(--text-color);
+}
+
+.leftnav div {
+    display: flex;
+    gap: 1.25rem;
+    align-items: center;
+}
+
+@media (max-width: 640px) {
+    .leftnav div {
+        gap: 5rem
+    }
+}
+
+@media (max-width: 374px) {
+    .leftnav div {
+        gap: 1.25rem
+    }
+}
+
+.leftnav span {
+    color: var(--text-color);
+}
+
+.leftnav div a {
+    font-size: 16px;
+    color: var(--text-color);
+    outline: none;
+
+}
+
+.leftnav div h1 {
+    font-weight: 600;
+    font-size: 26px;
+ 
+
+}
+
+
+.rightnav {
+    display: flex;
+    gap: 25px;
+}
+
+
+
+.hiderightnav{
+    display: flex;
+    gap: 25px;
+}
+
+@media (max-width: 640px) {
+    .hiderightnav  {
+        display: none;
+    }
+}
+
+.lable {
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+    cursor: pointer;
+}
+
+.lable span {
+    margin-left: 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    color: var(--text-color);
+}
+.dropdown,div{
+    color: var(--text-color);
+}

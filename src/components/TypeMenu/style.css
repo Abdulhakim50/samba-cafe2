@@ -1,0 +1,42 @@
+.typemenucont {
+    position: absolute;
+    right: 0;
+    margin-top: 0.5rem;
+    width: 200px;
+    background-color: var( --components-color);
+}
+
+.typemenuwrapper {
+    display: flex;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    flex-direction: column;
+}
+
+.typemenuwrapper h1 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    text-align: center;
+    background-color: var( --components-color);
+    color: var( --text-color);
+    font-weight: 700;
+}
+
+.typemenuwrapper div {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1rem;
+    color: var( --text-color);
+    font-weight: 500;
+}
+
+@media (min-width: 640px) {
+    .typemenuwrapper div {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 0.5rem;
+        border-right: 1px solid rgba(85, 86, 90, 0.12);
+        border-bottom: 1px solid rgba(85, 86, 90, 0.12);
+        border-left: 1px solid rgba(85, 86, 90, 0.12);
+    }
+}

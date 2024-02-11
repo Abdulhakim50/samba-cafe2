@@ -1,0 +1,125 @@
+/* styles2.css */
+
+
+
+
+
+
+.table-container-f {
+    border-width: 1px;
+    border-color: #D1D5DB;
+    width: 100%;
+    background-color: var( --components-color);
+}
+
+
+
+
+
+.table-header-row {
+    background-color: var( --components-color);
+    color: var( --text-color);
+}
+
+.table-header-row th {
+
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+}
+
+.table-header-row h2 {
+
+    margin-bottom: 0.5rem;
+    font-size: 20px;
+    color: var( --text-color);
+    font-weight: 500;
+}
+
+
+.table-header-row2 {
+    background-color: var( --components-color);
+}
+
+.table-header-row2 td {
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 10rem;
+    padding-right: 11.7rem;
+    border-bottom-width: 1px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    color: var(  --table-color);
+    
+}
+
+@media (max-width: 768px) {
+    .table-header-row2 td {
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+    }
+}
+
+.table-header-row3 {
+    text-align: center;
+    transition-property: 2s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+
+.table-header-row3 td {
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-bottom-width: 1px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    color: var(  --table-color);
+}
+
+@media (max-width: 768px) {
+    .table-header-row3 td {
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+    }
+}
+
+.table-header-row4 {
+    text-align: center;
+    transition-property: 2s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+   
+}
+
+.table-header-row4 td {
+
+    padding-top: 1rem;
+    padding-bottom: 1rem; 
+    padding-left: 4rem;
+    padding-right: 5rem;
+    border-bottom-width: 1px; 
+    font-size: 1rem;
+    line-height: 1.5rem; 
+    font-weight: 500; 
+    color: var(  --table-color);
+}
+
+@media (max-width: 768px) {
+    .table-header-row4 td {
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+    }
+}
+@media (max-width: 1024px) {
+    .hidden {
+        display: none;
+    }
+}

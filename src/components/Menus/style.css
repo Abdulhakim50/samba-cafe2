@@ -1,0 +1,54 @@
+.menuscontainer {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20rem;
+    width: 70vw;
+}
+
+@media (min-width: 1024px) {
+    .menuscontainer {
+        display: none;
+    }
+}
+
+@media (max-width: 640px) {
+    .menuscontainer {
+        gap: 5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .menuscontainer {
+        gap: 10rem;
+        margin-left: 0px;
+    }
+}
+
+.menuwrapper {
+    position: relative;
+    width: 150px;
+}
+
+@media (max-width: 640px) {
+    .menuwrapper {
+        width: 100px;
+    }
+}
+
+.submenu {
+    position: absolute;
+    right: 0px;
+  
+}
+@media (max-width: 640px) {
+    .submenu {
+        right: 170px;
+    }
+}
+
+
+    @media (max-width: 640px) {
+        .hid {
+            display: none;
+        }
+    }

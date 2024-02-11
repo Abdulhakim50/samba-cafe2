@@ -1,0 +1,80 @@
+.submenucont {
+    position: absolute;
+    margin-top: 3rem;
+    border-width: 1px;
+    max-width: 400px;
+    margin-left: -399px;
+}
+
+@media (max-width: 1024px) {
+    .submenucont {
+        margin-left: -220px;
+    }
+}
+
+.submenucont h1 {
+    padding-top: 0.75rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    color: var( --text-color);
+    font-weight: 700;
+}
+
+@media (max-width: 1024px) {
+    .submenucont h1 {
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+    }
+}
+
+.menucont {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding-top: 13px;
+    padding-right: 52px;
+    padding-bottom: 13px;
+    padding-left: 5px;
+    background-color: var( --components-color);
+}
+
+@media (max-width: 1024px) {
+    .menucont {
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+}
+
+.submenuwrapper {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 16px;
+    gap: 20px;
+}
+
+
+
+.submenuwrapper div {
+    color: var( --text-color);
+    fill: currentColor;
+    flex-shrink: 0;
+}
+@media (max-width: 1024px) {
+    .submenuwrapper div {
+      display: none;
+    }
+}
+.submenuwrapper div {
+    color: var( --text-color);
+    fill: currentColor;
+    flex-shrink: 0;
+}
+.submenuwrapper p {
+    color: var( --text-color);
+    font-size: 14.5px;
+    font-weight: 500;
+
+}

@@ -1,0 +1,144 @@
+.navtablecontainer {
+    height: 100%;
+    width: 300px;
+    background-color: var(  --components-color);
+}
+
+@media (min-width: 1024px) {
+    .navtablecontainer {
+        position: fixed;
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .navtablecontainer {
+        display: none;
+    }
+}
+
+.navtablecontainer h1 {
+    padding-bottom: 0.75rem;
+    padding-top: 4rem;
+    text-align: center;
+    color: var(--text-color);
+    font-weight: 700;
+    border: 0.5px solid rgba(85, 86, 90, 0.12);
+}
+
+.pricecontainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    cursor: pointer;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: var(  --components-color);
+
+}
+
+.pricecontainer:hover {
+    background: #E2E8F0;
+}
+
+.pricewrapper {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 16px;
+    gap: 40px;
+ 
+
+}
+
+.pricewrapper div {
+    background-color: var(  --components-color);
+    fill: currentColor;
+    flex-shrink: 0;
+}
+
+.pricewrapper p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.activAdcontainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    cursor: pointer;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: var(  --components-color);
+
+
+}
+
+.activAdcontainer:hover {
+    background: #E2E8F0;
+}
+
+.activeAdwrapper {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 40px;
+    gap: 20px;
+ 
+
+
+}
+
+.activeAdwrapper div {
+    color: #6B7280;
+    fill: currentColor;
+    flex-shrink: 0;
+}
+
+.activeAdwrapper p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    color: var( --text-color);
+
+}
+
+.slecteddatacont {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: var(  --components-color);
+}
+
+.slecteddatacont:hover {
+    background: #E2E8F0;
+}
+
+.slecteddatawrapper {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 16px;
+    gap: 20px;
+  
+}
+
+
+.slecteddatawrapper div {
+    color: #6B7280;
+    fill: currentColor;
+    flex-shrink: 0;
+}
+
+.slecteddatawrapper p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    color: var(--text-color);
+
+}

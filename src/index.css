@@ -1,0 +1,228 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.light-mode  {
+  --background-color: #FFF; 
+  --text-color: #6C6F73; 
+  --components-color: #FCFCFC; 
+  --table-color:#4B5563;
+  --tabel-nav-bg:#E2E8F0;
+}
+
+/* Dark mode */
+.dark-mode {
+  --background-color: #253238; 
+  --text-color: white; 
+  --components-color: #293B46; 
+  --table-color:white;
+  --tabel-nav-bg:#293B46;
+}
+
+.test{
+ background-color: var(--background-color);
+
+
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: green;
+  transform-origin: 0%;
+}
+
+.bordercss {
+  border: 0.5px solid rgba(85, 86, 90, 0.12);
+}
+
+.InfoNav {
+  padding: 3px 285px 20px 146px;
+
+
+}
+
+.nav {
+  flex: 1 0 0;
+}
+
+.pad {
+  margin: 16px 70px 16px 5px;
+}
+
+.bordb {
+  border-right: 1px solid rgba(85, 86, 90, 0.12);
+
+  border-bottom: 1px solid rgba(85, 86, 90, 0.12);
+
+  border-left: 1px solid rgba(85, 86, 90, 0.12);
+}
+
+.bordh {
+  border-radius: 2px 2px 0px 0px;
+  border: 1px solid rgba(85, 86, 90, 0.12);
+}
+
+.tableBorder {
+  border: 0.5px solid rgba(85, 86, 90, 0.12);
+}
+
+.bg {
+  background: linear-gradient(to bottom, #F6F6F6, #FCFCFC);
+}
+/* 
+.image-container {
+  position: relative;
+  overflow: hidden;
+
+}
+
+.overlay-image {
+  position: absolute;
+  top: 50%;
+  transition: top 0.5s;
+}
+
+.image-container:hover .overlay-image {
+  top: 0;
+} */
+
+.br {
+  border-radius: 2.546px;
+  border: 1px solid #DFE3E7;
+}
+.tablenavborder{
+  border: 0.5px solid rgba(85, 86, 90, 0.12);
+}
+.brd {
+  border-radius: 8px;
+  border: 0.2px solid #6C6A6A;
+}
+
+.borderinputs {
+  border-radius: 8px;
+  border: 0.6px solid #6C6A6A;
+}
+.borderform {
+  border-radius: 2.546px;
+border: 1px solid #DFE3E7;
+}
+
+.dropdown-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.menu-icon {
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: block;
+  width: 200px;
+  position: absolute;
+  top: 100%;
+  right: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content div {
+  padding: 12px 16px;
+  display: block;
+  text-decoration: none;
+  color: #333;
+}
+
+.dropdown-content div:hover {
+  background-color: #ddd;
+}
+
+@keyframes fadeInOutAnimation {
+
+  0%,
+  100% {
+    opacity: 0.7;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.fade {
+  animation: fadeInOutAnimation 1.5s ease-in-out infinite;
+}
+
+.Poppins {
+  font-family: 'Poppins', sans-serif;
+}
+.Outfit{
+  font-family: 'Outfit', sans-serif;
+}
+.Roboto{
+  font-family: 'Outfit', sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.table-slider-container {
+  overflow-x: auto;
+  white-space: nowrap;
+  display: flex;
+  width: 200%;
+}
+
+
+
+/* Style for table 1 */
+.table1 {
+  background-color: #e0e0e0;
+  width: 100%;
+
+}
+
+/* Style for table 2 */
+.table2 {
+  background-color: #f0f0f0;
+  width: 100%;
+}
+.calendar-container {
+  background-color: #FCFCFC;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.custom-calendar {
+  width: 300px; /* Adjust as needed */
+
+}
+
+.react-calendar__tile {
+
+  border: 1px solid #ddd;
+}
+
+.react-calendar__tile--now {
+  padding: 5px;
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.react-calendar__tile--active {
+  background-color: #2196f3;
+  color: #fff;
+}

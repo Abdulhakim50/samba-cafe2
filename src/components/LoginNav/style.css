@@ -1,0 +1,43 @@
+.containerr {
+    display: flex;
+    padding-top: 1.25rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+ .h1{
+    color:#64758B;
+    font-size: 28.58px;
+    font-weight:600;
+}
+.span{
+    color:#334155;
+    font-size: 28.58px;
+    font-weight:600;
+}
+@media (min-width: 640px) {
+    .containerr {
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .containerr {
+        margin-left: 15rem;
+        margin-right: 15rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .containerr {
+        display: none;
+        margin-left: 1.25rem;
+        margin-right: 1.25rem
+    }
+
+    ;
+}

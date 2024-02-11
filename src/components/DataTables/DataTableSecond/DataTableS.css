@@ -1,0 +1,109 @@
+@media (min-width: 640px) {
+    .datatable-container {
+        overflow-x: auto;
+    }
+}
+
+.datatables {
+    border-width: 1px;
+    border-color: #D1D5DB;
+    width: 100%;
+    background-color: var(--components-color);
+}
+
+.datatables-heading {
+    background-color: var(--components-color);
+}
+
+.datatables-heading th {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-bottom-width: 1px;
+}
+
+.datatables-heading h2 {
+    margin-bottom: 0.5rem;
+    font-size: 20px;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.table-row-1 {
+    background-color: var(--components-color);
+}
+
+.table-row-1 td {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 5rem;
+    border-bottom-width: 1px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    color: var(--table-color);
+}
+
+@media (max-width: 768px) {
+    .table-row-1 td {
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+    }
+}
+
+.table-row-2 {
+    background-color: var(--components-color);
+}
+
+.table-row-2 th {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom-width: 1px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    color: var(--table-color);
+}
+
+.table-row-3 {
+    text-align: center;
+}
+
+.table-row-3 td {
+    border-bottom-width: 1px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    color: var(--table-color);
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.table-row-4 {
+    text-align: center;
+    transition-property: 2s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+
+.table-row-4 td {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 6rem;
+    padding-right: 7rem;
+    border-bottom-width: 1px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    color: var(--table-color);
+}
+
+@media (max-width: 768px) {
+    .table-row-4 td {
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+    }
+}
