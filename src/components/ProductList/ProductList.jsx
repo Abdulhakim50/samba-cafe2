@@ -89,13 +89,9 @@ const ProductList = () => {
                         <img
                           src={product.src1}
                           alt=""
-                        
+                        className=' hover:scale-110 duration-1000'
                         />
-                        <img
-                          src={product.src}
-                          alt=""
-                          className='overlay-image'
-                        />
+                    
                       </div>
                     </div>
                   </div>
